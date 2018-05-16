@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HrMockupComponent } from './hr-mockup/hr-mockup.component';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [HrMockupComponent]
+	imports: [ CommonModule ],
+	declarations: []
 })
-export class CoreModule { }
+export class CoreModule {}
